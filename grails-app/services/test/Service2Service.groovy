@@ -4,7 +4,7 @@ import test.exceptions.CustomException
 
 class Service2Service {
 
-    def error() {
+    def error() throws CustomException {
         throw new CustomException("Error")
     }
 
